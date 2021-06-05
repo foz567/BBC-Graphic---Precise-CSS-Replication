@@ -1,0 +1,56 @@
+* { 
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+html{
+    height:100%
+}
+body{background-image:url('https://quicksnooker.com/images/sturgeonBack.jpg');    
+	background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 1.8vw;
+}
+#outer{
+    position:absolute;
+    bottom:1em;
+}
+
+.w50{width:50%}
+.w100{width:100%}
+
+.pad15{padding-left:15%;padding-right:.5em}
+
+.red{color:red;}
+.black{color:black;}
+.white{color:white;}
+
+.onWhite{background-color:white;}
+.onRed{background-color:red;}
+.onBlack{background-color:black;}
+.onBurgandy{background-color:rgb(128,10,64);}
+
+.lightBanner{background-color:white;opacity:.8;}
+
+.caps{text-transform:uppercase;}
+
+.squareUp{padding-left:.1em;padding-right:.1em;}
+
+.hPad{padding-left:.5em;padding-right:.5em;}
+.vPad{padding-top:.1em;padding-bottom:.1em;}
+
+/* tumbleIn is a make up animation name */
+/* @keyframes tumbleIn{
+    0% {bottom:100%; transform: rotatez(180deg) scale(.1);}
+    100% {bottom:10%;transform:rotateX(0deg) scale(1);}
+} */
+
+#outer{
+    animation-name: tumbleIn;
+    animation-duration: 3s;
+
+    animation-iteration-count: 1;
+    opacity: 50%;
+}
